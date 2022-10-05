@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <title>npm e sass</title>
+    </head>
+    <body>
+        <nav class="navbar bg-light">
+            <div class="container-fluid px-5 py-2">
+                <span class="navbar-brand mb-0 h1">The Black Phone</span>
+                <div>
+                    <button onclick="changeColor()">Dark Mode !</button>
+                    <button onclick="addPic()">show poster</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col">
+                    <h1>The Black Phone</h1>
+                    <h4>
+                        The Black Phone is a 2021 American coming-of-age supernatural horror film[4] directed by Scott Derrickson and written by Derrickson and C. Robert Cargill, who both produced
+                        with Jason Blum. It is an adaptation of the 2004 short story of the same name by Joe Hill. The film stars Mason Thames, Madeleine McGraw, Jeremy Davies, James Ransone, and
+                        Ethan Hawke. In the film, an abducted teenager (Thames) uses a mysterious telephone to communicate with the previous victims of his deranged captor (Hawke). Derrickson came on
+                        board to direct The Black
+                    </h4>
+                </div>
+                <div class="col hidden" id="picture">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/horror-img.jpg" class="d-block w-100 float" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/horror-img.jfif" class="d-block w-100 float" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/horror-img.png" class="d-block w-100 float" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <h4>
+                        The Black Phone is a 2021 American coming-of-age supernatural horror film[4] directed by Scott Derrickson and written by Derrickson and C. Robert Cargill, who both produced
+                        with Jason Blum. It is an adaptation of the 2004 short story of the same name
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
